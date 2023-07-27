@@ -23,8 +23,9 @@
                 <p class="font-bold text-2xl">Fruit Burst</p>
             </div>
             <div class="flex-none gap-2 ">
-              <div class="form-control">
+              <div class="form-control ">
                 <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto rounded-full mr-3" />
+                
               </div>
               <div class="dropdown dropdown-end">
                 <label tabindex="0" class="btn btn-ghost btn-circle avatar">
@@ -46,7 +47,7 @@
     </nav>
     <header>
       <!-- banner -->
-     <div class="hero min-h-[calc(100vh-38px)] mx-auto mt-12 w-[1880px] h-[600px]" style="background-image: url(./images/banner1.png);">
+     <div class="hero min-h-[calc(100vh-38px)] lg:mx-auto mt-12 w-[1880px] h-[600px] " style="background-image: url(./images/banner1.png);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="">
@@ -58,7 +59,7 @@
         </div>
       </div>
       <!-- banner-side -->
-  <div class="flex w-1/2  mx-auto relative shadow-xl justify-center text-center -mb-10">
+  <div class="grid grid-cols-2 w-1/2  mx-auto relative shadow-xl overflow-y-auto justify-center text-center -mt-10 md:grid-cols-3 lg:grid-cols-5">
       <div>
         <img src="./images/fruit1.png" alt="">
         <p>GRAPES</p>
@@ -83,13 +84,13 @@
     </header>
     <main>
       <!-- second part -->
-      <div class="flex justify-between  m-20 ">
+      <div class="flex justify-between m-7 md:p-16 lg:p-24 m-20 ">
         <div class="my-3">
 <h1 class="font-bold text-5xl">Deal of the day</h1>
 <p class="text-xl">Contrary to popular belief, is not simply random text.<br> It has roots in a piece of classical <br>
   Latin literature from 45 BC, making it over 2000 years old</p>
         </div>
-        <div class="flex  gap-4 text-4xl">
+        <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 text-4xl">
           <div>
             <h2>29</h2>
             <p>Days</p>
@@ -111,7 +112,7 @@
         </div>
       </div>
       <!-- card -->
-      <section class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 m-20 gap-6 justify-center shadow-2xl my-7 ">
+      <section class="grid grid-cols-1 p-7 md:grid-cols-2 p-14 lg:grid-cols-4 p-24 m-20 gap-6 justify-center shadow-2xl my-7 ">
         <div class="card bg-base-100 shadow-lg ">
           <figure class="px-10 pt-10">
             <img src="./images/fruit6.png" alt="Fruit" class="rounded-xl"/>
@@ -197,7 +198,7 @@
       <button class="btn btn-secondary">Shop All</button>
       </div>
       <section>
-        <div class="hero min-h-screen mx-20 my-12 w-[1880px] h-[600px] " style="background-image: url(./images/banner2.png);">
+        <div class="hero min-h-screen lg:mx-20 my-12 w-[1880px] h-[600px] " style="background-image: url(./images/banner2.png);">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
             <div>
@@ -294,7 +295,7 @@
         <div></div>
       </section>
     </main>
-    <footer class="  justify-center text-center bg-red-300 text-cyan-50 md: my-10 pt-10 pb-10 lg:my-15 pt-16 pb-16 gap-8 ">
+    <footer class=" justify-center text-center bg-red-300 text-cyan-50 lg:my-15 pt-16 pb-16 gap-8 ">
       <div class="flex justify-center items-center gap-4">
 <img src="./images/logo.png" alt="">
 <h1>Fruit Burst</h1>
